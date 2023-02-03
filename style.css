@@ -22,11 +22,15 @@ header .menu {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-    transition: all 250ms ease-in-out;
+    
 }
 
 .nav-item .nav-link {
     color: white
+}
+
+.nav-item {
+    transition: all 250ms ease-in-out;
 }
 
 .nav-item:hover {
