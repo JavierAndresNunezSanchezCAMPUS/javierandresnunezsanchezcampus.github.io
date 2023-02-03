@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'opensans-regular-webfont';
+    src: url(fonts/OpenSans/opensans-regular-webfont.ttf);
+}  
+
+header {
+    background-image: url(images/fondo-bienvenido-grande.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.fuente { 
+    font-family:'opensans-regular-webfont';
+}
+
+header .menu {
+
+    background-color: rgba(0, 0, 0, 0.521);
+    padding-top: 45px;
+    padding-bottom: 35px;
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+
+}
+
+.nav-item .nav-link {
+    color: white
+}
+
+.nav-item:hover {
+    background-color: #f05f40;
+    background: cover;
+    transform: scale(1.1);
+    transition: all 250ms ease-in-out;
+}
+
+.center {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    text-align:center;
+    margin:auto;
+    background: none;
+    color: white;
+}
+
+.btn {
+    background-color: #f05f40;
+    color: white;
+    padding: 15px 30px;
+}
+
+.btn:hover {
+    background-color:#ec4520;
+    transition: all 250ms ease-in-out;
+    transform: scale(1.1);
+
+}
+
+.first-section {
+    margin: auto;
+    background: #f05f40;
+
+}
+
+.first-section img {
+    width: 200px;
+    margin: 30px;
+
+}
+.first-section img:hover {
+    cursor: pointer;
+    transition: all 250ms ease-in-out;
+    transform: scale(1.1);
+}
+
+.first-section h2 {
+    text-align: center;
+    color: white;
+    font-size:50px;
+
+}
+
+.first-section article {
+    text-align: center;
+    height: auto;
+    padding-bottom: 70px;
+
+}
+
+.btn2 {
+    background-color: #ffffff;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+}
+
+.text {
+    width:50%;
+    text-align:center;
+    margin: auto;
+    color: white;
+    font-size: 18px;
+}
+
+.second-section h3 {
+    padding:50px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size:50px;
+}
+
+.cajas {
+    
+    justify-content: center;
+    display: flex;
+    margin: 50px;
+
+}
+
+.caja i { 
+    font-size: 90px;
+    color: #f05f40;
+    cursor: pointer;
+}
+
+.caja {
+    width: 550px;
+    text-align: center;
+
+}
+
+.textcont {
+    text-align: center;
+    margin: auto;
+    font-size: 1.2em;
+    color:black;
+    width: 250px;
+    
+}
+
+.third-section {
+    margin: auto;
+    background-color:rgba(0, 0, 0, 0.74);
+    padding-bottom: 15px;
+
+}
+
+.third-section h4 {
+    padding:50px;
+    padding-bottom:50px;
+    text-align: center;
+    color:white;
+    font-size:50px
+}
+.container-img {
+    width: 100%;
+    margin:0%;
+    overflow: hidden;
+  
+}
+
+.container-img ul {
+    display:flex;
+    animation: cambio 10s infinite alternate linear;
+    width: 200%;
+
+}
+
+.container-img li {
+    width: 100%;
+    list-style: none;
+    margin:10px;
+    padding:12px;
+
+}
+
+.container-img img {
+    width: 100%; 
+    height: 100%;
+
+}
+
+@keyframes cambio {
+    
+    0%{margin-left:0;}
+    100%{margin-left:-100%;} 
+}
+
+.container-img img {
+    padding: auto;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.container-img img:hover {
+    transition: all 250ms ease-in-out;
+    transform: scale(1.1);
+ 
+}
+
+.forth-section {
+    background:black;
+    margin:auto;
+    padding: 30px;
+    padding-bottom: 15px;
+}
+
+.forth-section h5 {
+    font-size: 15px;
+    text-align: center;
+    color:white
+}
