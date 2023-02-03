@@ -22,7 +22,7 @@ header .menu {
     display: flex;
     justify-content:space-around;
     flex-wrap: wrap;
-
+    transition: all 250ms ease-in-out;
 }
 
 .nav-item .nav-link {
@@ -33,7 +33,7 @@ header .menu {
     background-color: #f05f40;
     background: cover;
     transform: scale(1.1);
-    transition: all 250ms ease-in-out;
+    
 }
 
 .center {
@@ -50,11 +50,11 @@ header .menu {
     background-color: #f05f40;
     color: white;
     padding: 15px 30px;
+    transition: all 250ms ease-in-out;
 }
 
 .btn:hover {
     background-color:#ec4520;
-    transition: all 250ms ease-in-out;
     transform: scale(1.1);
 
 }
@@ -68,11 +68,11 @@ header .menu {
 .first-section img {
     width: 200px;
     margin: 30px;
+    transition: all 250ms ease-in-out;
 
 }
 .first-section img:hover {
     cursor: pointer;
-    transition: all 250ms ease-in-out;
     transform: scale(1.1);
 }
 
@@ -197,11 +197,11 @@ header .menu {
     object-fit: cover;
     border-radius: 20px;
     cursor: pointer;
+    transition: all 250ms ease-in-out;
 
 }
 
 .container-img img:hover {
-    transition: all 250ms ease-in-out;
     transform: scale(1.1);
  
 }
