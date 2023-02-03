@@ -120,10 +120,6 @@ header .menu {
   
 }
 
-.cajas:hover {
-    transform: scale(1.1);
-    transition: all 250ms ease-in-out
-
 .caja i { 
     font-size: 90px;
     color: #f05f40;
